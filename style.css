@@ -1,44 +1,22 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #f2c6d4;
-    padding: 20px;
-    text-align: center;
-}
-
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: #eee;
-    text-align: center;
-    padding: 10px;
-}
+/* GENERAL */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff0f5; /* Rose très clair */
+    background-color: #fff0f5; /* rose très clair */
     color: #333;
 }
 
+/* HEADER */
 header {
-    background-color: #ff69b4; /* Rose vif */
+    background-color: #ff69b4; /* rose vif */
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
 }
 
 nav a {
@@ -48,20 +26,34 @@ nav a {
     font-weight: bold;
 }
 
-h2 {
-    color: #ff1493; /* Rose plus foncé pour les titres */
+/* SECTIONS */
+section {
+    padding: 20px;
+    background-color: #ffe4f1; /* rose clair pour sections */
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
 }
 
+/* TITRES */
+h2 {
+    color: #ff1493; /* rose foncé */
+}
+
+/* GALERIE */
 img {
     width: 200px;
     margin: 10px;
     border-radius: 15px;
-    border: 2px solid #ff69b4; /* bord rose autour des images */
+    border: 2px solid #ff69b4;
 }
 
-section {
-    padding: 20px;
-    background-color: #fff0f5; /* même rose clair pour chaque section */
-    margin-bottom: 20px;
-    border-radius: 10px;
+/* FOOTER */
+footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
+
+
